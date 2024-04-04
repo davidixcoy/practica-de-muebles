@@ -4,3 +4,23 @@ para configurar y vincular el git con github en tu usario q esten vinculados
 para inicializar con el repositorio es 
 git init
 
+para ver en que rama estamos es 
+git branch
+
+para declarar la rama madre es este comando con eme mayuscula xq vamos a declarar la rama madre git branch -M luego el nombre de la rama a cual pasar
+si el nombre de la rama madre o principal aparece con master cambiarla con este comando a main ajemplo git branch -M main y ya
+
+git add para agregar a sala de espera los archivos q van a subirse a la nube git add para agregar todo y git y nombre especifico del documento que quiero subir o actualizar
+
+git status o git status -s .............es para ver si estan en rojo es xq no estan agregados con git add si estan en verte es xq ya se les hizo el git add 
+
+este sirve xq aveces para subir un cambio es git push origin que a donde va dirigido y luego el nombre de a donde va q este va a mi rama madre osea main
+pero aveces hay conflictos basicos se usa git push origin main -f el guion f es lo q cambia q indica forzar a subir los archivos si o si
+git push origin main -f 
+
+este git pull es para descargar cambios que otro alla echo y de donde lo bajamos osea el origin vamos a bajar los datos de la rama main si queres bajar datos de otra rama solo pones especifico a cual
+git pull origin main 
+
+git fetch es para que te de una situacion que la consola te diga si te faltan bajar datos o subir o algo pendiente el te lo muestra
+git fetch 
+
