@@ -1,0 +1,6 @@
+para configurar y vincular el git con github en tu usario q esten vinculados
+ git config --global user.name "davidixcoy"
+
+para inicializar con el repositorio es 
+git init
+
